@@ -12,26 +12,61 @@
 </head>
 <body>
     <div class="container">
-        <label>
-            Nome e Cognome
-            <input type="text" id="user_name">
-        </label>
-        <label>
-            Km da percorrere
-            <input type="text" id="km">
-        </label>
-        <label>
-            Età
-            <input type="text" id="age">
-        </label>
-        <div>
-            <button id="generate">Genera</button>
+        <div class="row">
+            <div class="col text-center">
+                <label>
+                    Nome e Cognome <br>
+                    <input type="text" id="user_name">
+                </label>
+            </div>
+            <div class="col text-center">
+                <label>
+                    Km da percorrere <br>
+                    <input type="text" id="km">
+                </label>
+            </div>
+            <div class="col text-center">
+                <label>
+                    Età <br>
+                    <input type="text" id="age">
+                </label>
+            </div>
+            <div class="text-center p-4">
+                <button id="generate">Genera</button>
+            </div>
         </div>
-        <output id="outname"></output>
-        <output id="type"></output>
-        <output id="seat"></output>
-        <output id="code"></output>
-        <output id="price"></output>
+        <div class="row">
+            <div class="col">
+                <label>
+                    Nome passegero:<br>
+                    <output id="outname"></output>
+                </label>
+            </div>
+            <div class="col">
+                <label>
+                    Offerta:<br>
+                    <output id="type"></output>
+                </label>
+            </div>
+            <div class="col">
+                <label>
+                    carrozza:<br>
+                    <output id="seat"></output>
+                </label>
+            </div>
+            <div class="col">
+                <label>
+                    Codice CP:<br>
+                    <output id="code"></output>
+                </label>
+            </div>
+            <div class="col">
+                <label>
+                    Costo biglietto:<br>
+                    <output id="price"></output>
+                </label>
+            </div>
+        </div>
     </div>
 </body>
 </html>
